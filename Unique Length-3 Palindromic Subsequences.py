@@ -20,4 +20,4 @@ class Solution:
                 if ch in r[i]:  
                     unique_palindromes.add(ch + s[i] + ch)
         
-        return len(unique_palindromes)
+        return len(unique_palindromes) 
