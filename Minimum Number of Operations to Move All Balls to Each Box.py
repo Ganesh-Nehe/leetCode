@@ -13,7 +13,7 @@ class Solution:
                 left_balls += 1
                 rb -= 1
             left_ops += left_balls
-            right_ops -= rb
+            right_ops -= rb    
         
         return ans
 
