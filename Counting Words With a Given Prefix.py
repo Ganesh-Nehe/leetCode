@@ -4,4 +4,4 @@ class Solution:
         for word in words:
             if word.startswith(pref):
                 count += 1
-        return count
+        return count   
