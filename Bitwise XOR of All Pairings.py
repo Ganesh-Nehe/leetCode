@@ -6,7 +6,7 @@ class Solution:
             xor1 ^= num
         for num in nums2:
             xor2 ^= num
-        result = 0
+        result = 0 
         if len(nums2) % 2 == 1:
             result ^= xor1
         if len(nums1) % 2 == 1:
