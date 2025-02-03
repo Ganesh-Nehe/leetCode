@@ -14,7 +14,7 @@ class Solution:
                 dec_len = 1
             elif nums[i] < nums[i - 1]:
                 dec_len += 1
-                inc_len = 1
+                inc_len = 1 
             else:
                 inc_len = 1
                 dec_len = 1
