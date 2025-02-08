@@ -24,4 +24,4 @@ class Solution:
             if close_count < 0:
                 return False  # Too many '(', even with flexible positions
 
-        return True        
+        return True         
