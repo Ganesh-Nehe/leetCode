@@ -22,4 +22,4 @@ class NumberContainers:
     def find(self, number: int) -> int:
         if number in self.number_to_indices and self.number_to_indices[number]:
             return self.number_to_indices[number][0]
-        return -1
+        return -1 
