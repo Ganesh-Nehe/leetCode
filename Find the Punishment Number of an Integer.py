@@ -19,4 +19,4 @@ class Solution:
             if canPartition(square_str, i, 0):
                 punishment_sum += i * i
         
-        return punishment_sum
+        return punishment_sum 
